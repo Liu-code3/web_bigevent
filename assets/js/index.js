@@ -62,7 +62,7 @@ function rendAvatar(user) {
         // 3.2 渲染文本头像
         $(".layui-nav-img").hide()
         // 如果是字母 那首字母大写
-        var firstName = name[0].toUpperCse()
+        var firstName = name[0].toUpperCase()
         $(".text-avatar").html(firstName).show()
 
     }
